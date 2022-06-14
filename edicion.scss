@@ -119,7 +119,7 @@ transition: opacity 150ms ease-in-out;
 }
 
 nav a:hover {
-color: #ffffff;  
+color: rgba(255, 255, 255, 0.5);  
 
 }
 
@@ -311,8 +311,7 @@ iframe{
     }
     p{
         text-align: center;
-        padding-left: 150px;
-        padding-right: 150px;
+
         font-size: 22px;
         color: white;
     }
@@ -350,8 +349,7 @@ iframe{
         
         .galery {
         display: grid;
-        padding-left: 150px;
-        padding-right: 150px;
+
         margin-top: 90px;
         grid-gap: 12px;
         margin-bottom: 100px;
@@ -441,7 +439,7 @@ iframe{
             background-color: #fff200;
         }
         
-        /*responsive*/
+        
         @media(max-width: 767px){
         .footer-col{
             width: 50%;
